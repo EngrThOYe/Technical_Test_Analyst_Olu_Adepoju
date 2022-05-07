@@ -18,12 +18,12 @@ Feature: Food and drinks rating
     Then Menu Insight Question page is displayed
 
     Examples:
-      | Food_Rating | Drink_Rating    | Slider_Score | Drill_Ans1                    | Drill_Ans2           | Drill_Ans3       | Comments |
+      | Food_Rating | Drink_Rating   | Slider_Score | Drill_Ans1                   | Drill_Ans2           | Drill_Ans3       | Comments |
       | Worst       | Worst          | 0            | Food: I didnt like the staff | It was too expensive | Food: It was dry | Abc 123  |
-      | Bad         | Bad            | 2            |                               | It was too expensive |                  |          |
+      | Bad         | Bad            | 2            |                              | It was too expensive |                  |          |
       | Neutral     | Neutral        | 8            | Food: I didnt like the staff |                      | Food: It was dry |          |
       | Bad         | Good           | 10           | Food: I didnt like the staff |                      |                  | 12 @ #   |
-      | Neutral     | Perfect        | 5            |                               |                      | Food: It was dry | 123 456  |
+      | Neutral     | Perfect        | 5            |                              |                      | Food: It was dry | 123 456  |
       | Worst       | Not Applicable | 7            | Food: I didnt like the staff | It was too expensive |                  | abd efg  |
 
   Scenario Outline: Selecting food rating as Good or Perfect

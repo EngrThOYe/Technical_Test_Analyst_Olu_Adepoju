@@ -585,5 +585,6 @@ public class Feed_It_Back_test_system_step_definition extends BasePage {
 
     @Then("the food and drink rating are selected")
     public void theFoodAndDrinkRatingAreSelected() {
+
     }
 }

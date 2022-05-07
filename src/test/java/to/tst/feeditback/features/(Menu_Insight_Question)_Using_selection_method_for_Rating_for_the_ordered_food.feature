@@ -1,6 +1,6 @@
 Feature: (Menu Insight Question) Using selection method for Rating for the ordered food
 
-  Scenario Outline:
+  Scenario Outline: Selecting the menu
     Given I navigate to Menu Insight Question page
     When I click on Course type as "<Course_type>"
     And the Courses page is displayed
